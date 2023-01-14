@@ -53,7 +53,7 @@ class first{
             System.out.println("The voter should be a Male or a Female");
         }
 
-        // NOTE - using not operator (!) that is if !(100 > 1) first check if 100 is greater than 1 True
+        // NOTE - using not operator (!) that is if (!(100 > 1)) first check if 100 is greater than 1 True
         // then do its negationn that is False this if statement would not run because condition is false
         // see in the below example
         if (100 > 1) {
@@ -61,10 +61,13 @@ class first{
         }else {
             System.out.println("False");
         }
-        if !(100 > 1) {
-            System.out.println();
-        }
 
+        
+        if (!(100 > 1)) {
+            System.out.println("True");
+        }else {
+            System.out.println("False");
+        }
     }
         }
 
